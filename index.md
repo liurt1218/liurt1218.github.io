@@ -4,12 +4,12 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am an undergraduate student at IIIS, Tsinghua University
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Computer Systems:** MLSystems
+- **Deep Learning:** AI for science
 
 ## News
 
