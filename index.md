@@ -8,8 +8,8 @@ I am an undergraduate student at IIIS, Tsinghua University
 
 ## Research Interests
 
-- **Computer Systems:** MLSystems
-- **Deep Learning:** AI for science
+- **Computer Systems:** MLSystems, Distributed Training
+- **Deep Learning:** AI for Science, Computer Vision
 
 ## News
 
