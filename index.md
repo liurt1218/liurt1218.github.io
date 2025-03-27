@@ -23,8 +23,7 @@ I am an undergraduate student at IIIS, Tsinghua University
 
   GPA: 3.92/4.00, Rank: 12/93
 
-  Selected Courses: Natural Language Processing(A+), Algebra and Computation(A+), Fundamentals of Programming(A+), Basic Principles of 
-  Marxism(A+)
+  Selected Courses: Intro to Programming in C/C++ (A+), Algebra and Computation (A+), Operating Systems and Distributed Systems (A+)
 
 {% include_relative _includes/publications.md %}
 
