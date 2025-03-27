@@ -13,10 +13,7 @@ I am an undergraduate student at IIIS, Tsinghua University
 
 ## News
 
-- **[Feb. 2020]**
-- **[Feb. 2020]**
-- **[Sept. 2019]**
-- **[Mar. 2019]**
+- **[Nov. 2024]** Received the Comprehensive Excellence Award of Tsinghua
 
 {% include_relative _includes/publications.md %}
 
