@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ruitao Liu | Yao Class, Tsinghua University</title>
+  <meta name="description" content="Ruitao Liu, Yao Class at Tsinghua University and research intern at MIT Han Lab. Research in machine learning systems, distributed training, and reinforcement learning.">
+  <link rel="canonical" href="https://liurt1218.github.io/">
+  <link rel="stylesheet" href="assets/css/research.css">
+  <meta name="theme-color" content="#183f72">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="site-shell">
+  <aside class="profile">
+    <a class="wordmark" href="#about" aria-label="Ruitao Liu home">RL<span>.</span></a>
+    <h1>Ruitao Liu<span lang="zh">刘睿韬</span></h1>
+    <p class="identity">Yao Class, Tsinghua University</p>
+    <p class="affiliation">Institute for Interdisciplinary<br>Information Sciences</p>
+    <div class="current"><span class="status-dot" aria-hidden="true"></span><div>Research Intern<span>MIT Han Lab</span></div></div>
+    <div class="contact"><a href="mailto:liurt23@mails.tsinghua.edu.cn">Email <span aria-hidden="true">↗</span></a><a href="https://github.com/liurt1218">GitHub <span aria-hidden="true">↗</span></a></div>
+    <nav aria-label="Sections"><a href="#about">About<span>01</span></a><a href="#research">Research & Projects<span>02</span></a><a href="#experience">Experience<span>03</span></a><a href="#education">Education & Teaching<span>04</span></a></nav>
+    <p class="side-note">Machine learning systems<br>Distributed training · Reinforcement learning</p>
+  </aside>
+  <main id="main">
+    <section id="about" class="about">
+      <p class="eyebrow">ABOUT ME <span class="small-rule"></span></p>
+      <h2>Efficient systems.<br><em>Better learning.</em></h2>
+      <p>I am an undergraduate in the <strong>Yao Class</strong> at the Institute for Interdisciplinary Information Sciences (IIIS), <strong>Tsinghua University</strong>.</p>
+      <p>I am currently a research intern at <strong>MIT Han Lab</strong>, advised by <strong>Prof. Song Han</strong>. I also work with <strong>Prof. Wei Xu</strong> at Tsinghua on distributed systems for large language model training.</p>
+      <p>My research focuses on <strong>machine learning systems</strong>: making large-model training and inference more efficient and reliable, and improving how language models learn to reason.</p>
+      <div class="topics"><span>ML Systems</span><span>Distributed Training</span><span>LLM Reinforcement Learning</span></div>
+    </section>
+    <section id="research">
+      <div class="section-heading"><h2>Research & Projects</h2><span>SELECTED WORK / 2024–2026</span></div>
+      <article class="project featured" id="smepo">
+        <div class="project-top"><span class="project-index">01 / REINFORCEMENT LEARNING</span><span class="venue">Preprint · 2026</span></div>
+        <h3>Hide to Guide<span>Learning via Semantic Masking</span></h3>
+        <p class="byline"><strong>Ruitao Liu</strong> · Co-first author · MIT Han Lab</p>
+        <div class="concept" aria-label="Semantic masking preserves reasoning structure while hiding reward-relevant content"><div>Expert reasoning<span>Plan + reward-relevant content</span></div><b aria-hidden="true">→</b><div class="masked">Semantic masking<span>Keep the plan · mask the answer</span></div><b aria-hidden="true">→</b><div>Policy learning<span>Reconstruct the missing steps</span></div></div>
+        <p>Developed Semantic Masked Expert Policy Optimization (SMEPO) for expert-guided reinforcement learning. The method preserves useful reasoning structure while masking information that could let a model copy its way to a reward.</p>
+        <p class="contribution">Evaluated on mathematical reasoning, code, and agent tasks.</p>
+        <div class="project-links"><a href="https://arxiv.org/abs/2605.25198">arXiv ↗</a><a href="https://arxiv.org/pdf/2605.25198">Paper PDF ↗</a><a href="https://github.com/mit-han-lab/SMEPO">Code ↗</a></div>
+      </article>
+      <article class="project" id="pipeline">
+        <div class="project-top"><span class="project-index">02 / DISTRIBUTED TRAINING</span><span class="venue">Preprint · 2026</span></div>
+        <h3>A Readiness-Driven Runtime<span>Pipeline-Parallel Training under Runtime Variability</span></h3>
+        <p class="byline"><strong>Ruitao Liu</strong> · First author · Advisor: Prof. Wei Xu</p>
+        <p>Designed and implemented a runtime that dispatches ready microbatch work in a Megatron-based training framework. Existing schedules provide priorities, while actual dependencies determine what can execute.</p>
+        <p class="contribution">Dynamic pipeline execution that adapts to computation and communication variability.</p>
+        <div class="project-links"><a href="https://arxiv.org/abs/2605.18750">arXiv ↗</a><a href="https://arxiv.org/pdf/2605.18750">Paper PDF ↗</a></div>
+      </article>
+      <article class="project" id="fftrainer">
+        <div class="project-top"><span class="project-index">03 / RELIABLE ML SYSTEMS</span><span class="venue">WAICA · 2026</span></div>
+        <h3>FFTrainer<span>Fast Failover with Almost-Free State Management</span></h3>
+        <p class="byline"><strong>Ruitao Liu</strong> · Co-author · Advisor: Prof. Wei Xu</p>
+        <p>Worked on fast failure recovery for large language model training, restoring training state with minimal additional state-management overhead.</p>
+        <div class="project-links"><a href="https://arxiv.org/abs/2512.03644">arXiv ↗</a><a href="https://arxiv.org/pdf/2512.03644">Paper PDF ↗</a></div>
+      </article>
+      <article class="project" id="megatronapp">
+        <div class="project-top"><span class="project-index">04 / TRAINING OPTIMIZATION</span><span class="venue">Preprint · 2025</span></div>
+        <h3>MegatronApp<span>Efficient and Comprehensive Management on Distributed LLM Training</span></h3>
+        <p class="byline"><strong>Ruitao Liu</strong> · Co-author · Advisor: Prof. Wei Xu</p>
+        <p>Optimized pipeline execution order and dependencies to increase computation–communication overlap and reduce pipeline bubbles in Megatron-based training.</p>
+        <div class="project-links"><a href="https://arxiv.org/abs/2507.19845">arXiv ↗</a><a href="https://arxiv.org/pdf/2507.19845">Paper PDF ↗</a><a href="https://github.com/OpenSQZ/MegatronApp">Code ↗</a></div>
+      </article>
+      <article class="project" id="syncdiff">
+        <div class="project-top"><span class="project-index">05 / GENERATIVE MODELS</span><span class="venue">ICCV · 2025</span></div>
+        <h3>SyncDiff<span>Synchronized Motion Diffusion for Multi-Body Human-Object Interaction Synthesis</span></h3>
+        <p class="byline">Wenkun He, Yun Liu, <strong>Ruitao Liu</strong>, Li Yi</p>
+        <p>Contributed to a diffusion framework for coordinated interactions among humans, hands, and objects, including model development, training, and data processing.</p>
+        <div class="project-links"><a href="https://arxiv.org/abs/2412.20104">arXiv ↗</a><a href="https://arxiv.org/pdf/2412.20104">Paper PDF ↗</a><a href="https://syncdiff.github.io/">Project ↗</a></div>
+      </article>
+      <article class="project" id="eeg">
+        <div class="project-top"><span class="project-index">06 / AI FOR SCIENCE</span><span class="venue">ACM MM · MRAC 2025</span></div>
+        <h3>Atoms of Thought<span>Universal EEG Representation Learning with Microstates</span></h3>
+        <p class="byline"><strong>Ruitao Liu</strong> · Co-first author</p>
+        <p>Designed microstate-based representations and deep learning models for EEG signal modeling and analysis.</p>
+        <div class="project-links"><a href="https://dl.acm.org/doi/10.1145/3746270.3760230">Paper / DOI ↗</a></div>
+      </article>
+      <article class="project" id="traincheck">
+        <div class="project-top"><span class="project-index">07 / OPEN-SOURCE CONTRIBUTION</span><span class="venue">2025</span></div>
+        <h3>TrainCheck<span>Relation Checks & Online Training Validation</span></h3>
+        <p class="byline">Research contributor · Advisor: Prof. Ryan Huang</p>
+        <p>Implemented FunctionCoverRelation and Threshold Relation checks, together with their online-checking versions. Ran experiments to collect relations and analyze inferred training invariants.</p>
+        <div class="project-links"><a href="https://github.com/OrderLab/TrainCheck">Code ↗</a></div>
+      </article>
+      <article class="project" id="mpm">
+        <div class="project-top"><span class="project-index">08 / COURSE PROJECT</span><span class="venue">2025</span></div>
+        <h3>CUDA-Accelerated Physical Simulation<span>Material Point Method for Fluid–Rigid Body Interaction</span></h3>
+        <p class="byline">Advanced Computer Graphics · Advisor: Prof. Li Yi</p>
+        <p>Built an MPM simulation framework in Python for interactions between rigid bodies and different liquids, with CUDA acceleration.</p>
+        <div class="project-links"><a href="https://github.com/liurt1218/Water-Collision">Code ↗</a></div>
+      </article>
+    </section>
+    <section id="experience">
+      <div class="section-heading"><h2>Experience</h2><span>RESEARCH</span></div>
+      <div class="timeline">
+        <div class="timeline-item"><p class="date">Oct 2025 – Present</p><div><h3>MIT Han Lab <span class="live">Current</span></h3><p>Research Intern · Advisor: Prof. Song Han</p><p class="muted">Reinforcement learning for large language models.</p></div></div>
+        <div class="timeline-item"><p class="date">Aug 2024 – Present</p><div><h3>Tsinghua University</h3><p>Research with Prof. Wei Xu</p><p class="muted">Distributed training, pipeline parallelism, and fast failure recovery.</p></div></div>
+        <div class="timeline-item"><p class="date">Jul – Sep 2025</p><div><h3>University of Michigan</h3><p>Research with Prof. Ryan Huang</p><p class="muted">Automated sanity checks for deep learning training.</p></div></div>
+        <div class="timeline-item"><p class="date">Feb – Aug 2024</p><div><h3>Tsinghua University</h3><p>Research with Prof. Li Yi</p><p class="muted">Generative modeling for multi-body human–object interactions.</p></div></div>
+      </div>
+    </section>
+    <section id="education">
+      <div class="section-heading"><h2>Education & Teaching</h2><span>TSINGHUA UNIVERSITY</span></div>
+      <div class="education"><span class="date">Aug 2023 – Present</span><h3>Computer Science · Yao Class</h3><p>Institute for Interdisciplinary Information Sciences<br>Tsinghua University</p></div>
+      <div class="teaching"><h3>Teaching Assistant</h3><p><strong>Introduction to Computer Systems</strong><span>2025, 2026</span></p><p><strong>Calculus</strong><span>2024, 2025</span></p></div>
+    </section>
+    <footer><span>© 2026 Ruitao Liu</span><a href="mailto:liurt23@mails.tsinghua.edu.cn">liurt23@mails.tsinghua.edu.cn ↗</a></footer>
+  </main>
+</div>
+</body>
+</html>
