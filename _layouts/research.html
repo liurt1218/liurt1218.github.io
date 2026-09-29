@@ -33,8 +33,16 @@
     </section>
     <section id="research">
       <div class="section-heading"><h2>Research & Projects</h2><span>SELECTED WORK / 2024–2026</span></div>
+      <article class="project" id="dopd">
+        <div class="project-top"><span class="project-index">01 / DIFFUSION LANGUAGE MODELS</span><span class="venue">Preprint · 2026</span></div>
+        <h3>d-OPD<span>Future-Aware On-Policy Distillation for Block Diffusion Language Models</span></h3>
+        <p class="byline"><strong>Ruitao Liu</strong> · First author · MIT Han Lab</p>
+        <p>Introduced future-aware on-policy distillation for block diffusion language models. The method corrects an autoregressive teacher's targets using visible future context within each block, aligning supervision with the information available to the diffusion student.</p>
+        <p class="contribution">Across Qwen3 models from 0.6B to 8B, improves the six-benchmark average by up to 4.0 points over OPDLM, with 1.35–1.58× training speedup.</p>
+        <div class="project-links"><a href="https://arxiv.org/abs/2609.35362">arXiv ↗</a><a href="https://arxiv.org/pdf/2609.35362">Paper PDF ↗</a><a href="https://github.com/mit-han-lab/d-OPD">Code ↗</a></div>
+      </article>
       <article class="project featured" id="smepo">
-        <div class="project-top"><span class="project-index">01 / REINFORCEMENT LEARNING</span><span class="venue">Preprint · 2026</span></div>
+        <div class="project-top"><span class="project-index">02 / REINFORCEMENT LEARNING</span><span class="venue">NeurIPS · 2026</span></div>
         <h3>Hide to Guide<span>Learning via Semantic Masking</span></h3>
         <p class="byline"><strong>Ruitao Liu</strong> · Co-first author · MIT Han Lab</p>
         <div class="concept" aria-label="Semantic masking preserves reasoning structure while hiding reward-relevant content"><div>Expert reasoning<span>Plan + reward-relevant content</span></div><b aria-hidden="true">→</b><div class="masked">Semantic masking<span>Keep the plan · mask the answer</span></div><b aria-hidden="true">→</b><div>Policy learning<span>Reconstruct the missing steps</span></div></div>
@@ -43,7 +51,7 @@
         <div class="project-links"><a href="https://arxiv.org/abs/2605.25198">arXiv ↗</a><a href="https://arxiv.org/pdf/2605.25198">Paper PDF ↗</a><a href="https://github.com/mit-han-lab/SMEPO">Code ↗</a></div>
       </article>
       <article class="project" id="pipeline">
-        <div class="project-top"><span class="project-index">02 / DISTRIBUTED TRAINING</span><span class="venue">Preprint · 2026</span></div>
+        <div class="project-top"><span class="project-index">03 / DISTRIBUTED TRAINING</span><span class="venue">Preprint · 2026</span></div>
         <h3>A Readiness-Driven Runtime<span>Pipeline-Parallel Training under Runtime Variability</span></h3>
         <p class="byline"><strong>Ruitao Liu</strong> · First author · Advisor: Prof. Wei Xu</p>
         <p>Designed and implemented a runtime that dispatches ready microbatch work in a Megatron-based training framework. Existing schedules provide priorities, while actual dependencies determine what can execute.</p>
@@ -51,35 +59,35 @@
         <div class="project-links"><a href="https://arxiv.org/abs/2605.18750">arXiv ↗</a><a href="https://arxiv.org/pdf/2605.18750">Paper PDF ↗</a></div>
       </article>
       <article class="project" id="fftrainer">
-        <div class="project-top"><span class="project-index">03 / RELIABLE ML SYSTEMS</span><span class="venue">WAICA · 2026</span></div>
+        <div class="project-top"><span class="project-index">04 / RELIABLE ML SYSTEMS</span><span class="venue">WAICA · 2026</span></div>
         <h3>FFTrainer<span>Fast Failover with Almost-Free State Management</span></h3>
         <p class="byline"><strong>Ruitao Liu</strong> · Co-author · Advisor: Prof. Wei Xu</p>
         <p>Worked on fast failure recovery for large language model training, restoring training state with minimal additional state-management overhead.</p>
         <div class="project-links"><a href="https://arxiv.org/abs/2512.03644">arXiv ↗</a><a href="https://arxiv.org/pdf/2512.03644">Paper PDF ↗</a></div>
       </article>
       <article class="project" id="megatronapp">
-        <div class="project-top"><span class="project-index">04 / TRAINING OPTIMIZATION</span><span class="venue">Preprint · 2025</span></div>
+        <div class="project-top"><span class="project-index">05 / TRAINING OPTIMIZATION</span><span class="venue">Preprint · 2025</span></div>
         <h3>MegatronApp<span>Efficient and Comprehensive Management on Distributed LLM Training</span></h3>
         <p class="byline"><strong>Ruitao Liu</strong> · Co-author · Advisor: Prof. Wei Xu</p>
         <p>Optimized pipeline execution order and dependencies to increase computation–communication overlap and reduce pipeline bubbles in Megatron-based training.</p>
         <div class="project-links"><a href="https://arxiv.org/abs/2507.19845">arXiv ↗</a><a href="https://arxiv.org/pdf/2507.19845">Paper PDF ↗</a><a href="https://github.com/OpenSQZ/MegatronApp">Code ↗</a></div>
       </article>
       <article class="project" id="syncdiff">
-        <div class="project-top"><span class="project-index">05 / GENERATIVE MODELS</span><span class="venue">ICCV · 2025</span></div>
+        <div class="project-top"><span class="project-index">06 / GENERATIVE MODELS</span><span class="venue">ICCV · 2025</span></div>
         <h3>SyncDiff<span>Synchronized Motion Diffusion for Multi-Body Human-Object Interaction Synthesis</span></h3>
         <p class="byline"><strong>Ruitao Liu</strong> · Co-author · Advisor: Prof. Li Yi</p>
         <p>Contributed to a diffusion framework for coordinated interactions among humans, hands, and objects, including model development, training, and data processing.</p>
         <div class="project-links"><a href="https://arxiv.org/abs/2412.20104">arXiv ↗</a><a href="https://arxiv.org/pdf/2412.20104">Paper PDF ↗</a><a href="https://syncdiff.github.io/">Project ↗</a></div>
       </article>
       <article class="project" id="eeg">
-        <div class="project-top"><span class="project-index">06 / AI FOR SCIENCE</span><span class="venue">ACM MM · MRAC 2025</span></div>
+        <div class="project-top"><span class="project-index">07 / AI FOR SCIENCE</span><span class="venue">ACM MM · MRAC 2025</span></div>
         <h3>Atoms of Thought<span>Universal EEG Representation Learning with Microstates</span></h3>
         <p class="byline"><strong>Ruitao Liu</strong> · Co-first author</p>
         <p>Designed microstate-based representations and deep learning models for EEG signal modeling and analysis.</p>
         <div class="project-links"><a href="https://arxiv.org/abs/2605.20182">arXiv ↗</a><a href="https://arxiv.org/pdf/2605.20182">Paper PDF ↗</a></div>
       </article>
       <article class="project" id="traincheck">
-        <div class="project-top"><span class="project-index">07 / OPEN-SOURCE CONTRIBUTION</span><span class="venue">2025</span></div>
+        <div class="project-top"><span class="project-index">08 / OPEN-SOURCE CONTRIBUTION</span><span class="venue">2025</span></div>
         <h3>TrainCheck<span>Relation Checks & Online Training Validation</span></h3>
         <p class="byline">Research contributor · Advisor: Prof. Ryan Huang</p>
         <p>Implemented FunctionCoverRelation and Threshold Relation checks, together with their online-checking versions. Ran experiments to collect relations and analyze inferred training invariants.</p>
@@ -89,7 +97,7 @@
     <section id="experience">
       <div class="section-heading"><h2>Experience</h2><span>RESEARCH</span></div>
       <div class="timeline">
-        <div class="timeline-item"><p class="date">Oct 2025 – Present</p><div><h3>MIT Han Lab <span class="live">Current</span></h3><p>Research Intern · Advisor: Prof. Song Han</p><p class="muted">Reinforcement learning for large language models.</p></div></div>
+        <div class="timeline-item"><p class="date">Oct 2025 – Present</p><div><h3>MIT Han Lab <span class="live">Current</span></h3><p>Research Intern · Advisor: Prof. Song Han</p><p class="muted">Reinforcement learning and on-policy distillation for large language models.</p></div></div>
         <div class="timeline-item"><p class="date">Aug 2024 – Present</p><div><h3>Tsinghua University</h3><p>Research with Prof. Wei Xu</p><p class="muted">Distributed training, pipeline parallelism, and fast failure recovery.</p></div></div>
         <div class="timeline-item"><p class="date">Jul – Sep 2025</p><div><h3>University of Michigan</h3><p>Research with Prof. Ryan Huang</p><p class="muted">Automated sanity checks for deep learning training.</p></div></div>
         <div class="timeline-item"><p class="date">Feb – Aug 2024</p><div><h3>Tsinghua University</h3><p>Research with Prof. Li Yi</p><p class="muted">Generative modeling for multi-body human–object interactions.</p></div></div>
